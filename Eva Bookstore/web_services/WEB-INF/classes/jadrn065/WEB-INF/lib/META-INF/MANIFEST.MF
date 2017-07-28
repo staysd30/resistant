@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.7.0_09-b30 (Oracle Corporation)
+Specification-Title: JavaServer Pages Standard Tag Library (JSTL)
+Specification-Version: 1.1
+Implementation-Title: jakarta-taglibs 'standard': an implementation of
+  JSTL
+Implementation-Version: 1.1.1
+Implementation-Vendor: Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Extension-Name: org.apache.taglibs.standard
+

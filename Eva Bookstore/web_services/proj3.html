@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Eva Bookstore</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<script type="text/javascript" src="/jquery/jquery.js"></script>
+	<script type="text/javascript" src="/jquery/jQueryUI.js"></script> 
+    <script type="text/javascript" src="/jadrn061/proj3js/firstpage.js"></script>
+    <script type="text/javascript" src="/jadrn061/proj3js/formvalidation.js"></script>	
+	<link rel="stylesheet" type="text/css" href="proj3css/firstpage.css" /> 
+	<link rel="stylesheet" type="text/css" href="proj3css/modal.css" />
+	<link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css" />
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css" />
+</head>
+
+<body>
+<div id="main_out"> 
+
+
+	<div id="banner">
+		<h1>Eva Bookstore</h1>
+	</div>
+    
+    
+    <ul id = "menu">
+	         <li><h1 id="my_name">Eva Bookstore</h1><li>
+        	<li><a id="products" class="selected" href="proj3.html" >All Products</a></li>
+         	<li><a id="aboutus" href="aboutus.html">About Us</a></li>
+         	<li><a id="contact" href="contactus.html">Contact</a></li> 
+            <li><div id="cart">
+       		<img src="proj3images/shcart.jpeg" alt="shopping cart" id="cart_image"/></li>
+			<li><div id="checkout_count"></div></li>
+			<li><div id="search_box">
+        	<input type="text" name="search" id="search" size="22" placeholder="  Search"/>	
+        </div></li>
+       	</div>			
+       </ul>
+    	
+<!-- ********************************left column for checkboxes******************************* -->
+	
+	<div id="left_column">
+		<h3>Vendor</h3>
+	<div id="vendor"></div>
+		<h3>Category</h3>
+	<div id="category"></div>
+    </div>
+  
+<!-- ********************************main column for products display************************** -->
+    
+    <div id="main_column">
+    	<div id="sorting">
+    		Sort by <select id="filter">
+			<option value="relevance" id="relevance">Relevance</option>
+			<option value="asc" id="lowtohigh">Price: Low to High</option>
+			<option value="desc" id="hightolow">Price: High to Low</option>
+			</select>
+		</div>
+		<div id="product"></div>
+		<div id="modalbox" class="modal">
+		 <div class="modal-content">
+         <span class="close">&times;</span>
+		 <div id="modalinside"></div>
+		  </div>
+          </div>
+		<a href="#" class="back-to-top">Back to Top</a>
+	</div>
+	</div>
+	
+
+<!-- ********************************right column************************************** -->
+
+	
+	 
+    </div> 
+	
+</body>
+</html>

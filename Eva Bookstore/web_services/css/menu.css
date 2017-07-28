@@ -1,0 +1,115 @@
+/* Hera Siddiqui
+jadrn061
+spring 2017
+cs645
+*/
+
+
+html,body { margin: 0; }
+
+h1,h2 { text-align: center; }
+
+div#tabs-1 {
+    height: 100%;
+    background: #E6E6FA;
+    border: 1px solid #009;
+    padding: 5px;
+}
+div#tabs-2 {
+    height: 100%;
+    background: #FFF8DC;
+    border: 1px solid #009;    
+    padding: 5px;
+}
+
+
+.ui-tabs-hide {
+    display: none;
+}
+
+div#tabs {
+    margin: 30px 40px 0 40px;
+    min-width:500px;
+
+	
+    }
+    
+div#tabs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 22px;
+    border-bottom: 1px solid #000;
+}
+div#tabs ul li {
+    font-weight: bold;
+    font-size: 120%;
+    float: left;
+    height: 17px;
+    padding: 5px 15px 2px 15px;
+    margin-right: 5px;
+    border: 3px solid #555;
+    border-bottom: none;
+    position: relative;
+    background: #EEE;
+}
+div#tabs ul li a {
+    text-decoration: none;
+    color: black;
+}
+div#tabs ul li.ui-tabs-selected {
+    background: #CCC;
+}
+div#tabs ul li.ui-tabs-selected a {
+    color: white;
+}
+
+div#busy_wait {
+    display: block;
+    margin: auto;
+    visibility: hidden;
+    width: 75px;
+    }
+
+#table1{
+	border-spacing : 10px;
+}	
+
+
+.ui-datepicker {
+	 background-color: #FFF;
+}
+
+.redborder {
+    border:#F00 solid 1px;
+    background-color:yellow;
+}
+.greenborder {
+    border:#0F3 solid 1px;
+    background-color:#6F6;
+}
+#table2{
+	border-spacing : 10px;
+}
+
+
+div.header {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+div.absolute {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+div.abs_submit {
+    position: absolute;
+    top: 570px;
+    right: 10px;
+    height: 100px;
+}

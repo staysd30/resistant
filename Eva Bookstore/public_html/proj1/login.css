@@ -1,0 +1,34 @@
+h1, h2 { 
+	text-align: center;
+    font-size: 40px;
+   }
+   
+table {
+	margin: 50px auto 50px auto;
+	border:	2px solid black;
+	padding: 100px;
+    background-color: #ADD8E6;
+
+   	}   
+	
+input {
+	font-size: 120%
+	}
+	
+.button {
+
+	margin: 20px 20px 0 auto;
+	}		
+
+td .button {
+	float: right;
+	}
+	
+.error {
+	color: red;
+	font-weight: bold;
+	}
+
+#main{
+	font-size: 25px;
+}

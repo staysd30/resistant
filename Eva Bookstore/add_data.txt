@@ -1,0 +1,25 @@
+use jadrn061;
+
+insert into vendor values(NULL,'Cengage Learning');
+insert into vendor values(NULL,'Harper Collins');
+insert into vendor values(NULL,'Grand Central');
+insert into vendor values(NULL,'Knopf DoubleDay');
+insert into vendor values(NULL,'Little Brown & Co');
+insert into vendor values(NULL,'Pearson');
+insert into vendor values(NULL,'Penguin');
+insert into vendor values(NULL,'Random House');
+insert into vendor values(NULL,'Scribner');
+insert into vendor values(NULL,'Simon & Schuster');
+insert into vendor values(NULL,'Topshelf Prod');
+insert into vendor values(NULL,'Washington Square');
+insert into vendor values(NULL,'Wiley');
+
+insert into category values(NULL,'Children');
+insert into category values(NULL,'Literature & Fiction');
+insert into category values(NULL,'Mystery & Thriller');
+insert into category values(NULL,'Non-Fiction');
+insert into category values(NULL,'Religion & Spirituality');
+insert into category values(NULL,'Romance');
+insert into category values(NULL,'Sci-Fi & Fantasy');
+insert into category values(Null,'Teen & Young Adult');
+insert into category values(Null,'Textbooks');
